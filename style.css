@@ -1,0 +1,187 @@
+*{
+    border: 0%;
+    padding: 0%;
+    }
+    /*Background image*/
+    body{
+        background-image: url(captains.webp);
+        background-color: green;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top 80px ;
+        background-size: 98%;
+    }
+    .navbar {/*navbar controls*/
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            background-color: black;
+            color: #fff; 
+            padding: 0px;
+        }
+    
+    .navbar img {/*Logo*/
+            height: 100px; 
+            margin-right: 30px;
+            padding-left: 40px;
+        }
+    .heading{/*front heading*/
+        color:white;
+        margin-top: 0px;
+    }
+    ul{
+        list-style-type: none;
+        padding: 2px;
+        display: inline-flex;
+        text-align: center;
+    }
+    li ul{
+        display: none;
+    }
+    ul li a{
+        display: block;
+        background-color: black;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        width: 260px;
+        border: 2px solid black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    ul li a:hover{
+        background-color: #000;
+        color: white;
+        border: 1px solid white;
+        font-size: 23px;
+    }
+    li:hover ul{
+        display: block;
+        position: absolute;
+    }
+    li:hover li{
+        float: none;
+    }
+    li:hover a{
+        background-color: black;
+        color:white;
+    } 
+    li:hover li a:hover{
+        background: black;
+        width:260px;
+        font-weight: bold;
+        font-size: 23px;
+        border: 3px solid white;
+    }
+.heading{
+    font-size: 30px;
+    text-align: center;
+}   
+.heading:hover{
+    color:aqua;
+    text-shadow: 2px bold green ;
+
+}
+/* Basic CSS for the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: lightblue;
+}
+
+.footer-info, .social-media {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+}
+
+.footer-info h3, .social-media h3 {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 20px;
+}
+/* Basic CSS for the latest news section */
+.latest-news {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.news-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    flex: 1 1 300px;
+    margin: 15px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.news-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.news-item a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.news-item a:hover {
+    background-color: #555;
+}
+

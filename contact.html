@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ScoreScyncer</title>
+	<style>
+		*{
+    border: 0%;
+    padding: 0%;
+    }
+    /*Background image*/
+    	body{
+        background-image: url(crc.jpeg);
+        /* background-color: aqua; */
+        background-repeat: no-repeat;
+        background-position: center top 4000px ;
+        background-size: 10%;
+    }
+    	.navbar {/*navbar controls*/
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            background-color: black;
+            color: #fff; 
+            padding: 0px;
+        }
+    
+    	.navbar img {/*Logo*/
+            height: 100px; 
+            margin-right: 30px;
+            padding-left: 40px;
+        }
+    	.heading{/*front heading*/
+        color:white;
+        margin-top: 0px;
+    }
+    	ul{
+        list-style-type: none;
+        padding: 2px;
+        display: inline-flex;
+        text-align: center;
+    }
+    	li ul{
+        display: none;
+    }
+    	ul li a{
+        display: block;
+        background-color: black;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        width: 260px;
+        border: 2px solid black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    	ul li a:hover{
+        background-color: #000;
+        color: white;
+        border: 1px solid white;
+        font-size: 23px;
+    }
+    	li:hover ul{
+        display: block;
+        position: absolute;
+    }
+    	li:hover li{
+        float: none;
+    }
+    	li:hover a{
+        background-color: black;
+        color:white;
+    } 
+    	li:hover li a:hover{
+        background: black;
+        width:260px;
+        font-weight: bold;
+        font-size: 23px;
+        border: 3px solid white;
+    }
+		.heading{
+    font-size: 30px;
+    text-align: center;
+}   
+		.heading:hover{
+    color:greenyellow;
+}
+
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+		form {
+			background-color: white;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+			max-width: 500px;
+			margin: 0 auto;
+            height: 400PX;
+		}
+		h2 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		label {
+			display: block;
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+		input[type="text"], textarea {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			float: right;
+		}
+		input[type="submit"]:hover {
+			background-color: #45a049;
+		}input[type="reset"] {
+			background-color: red;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			float: left;
+		}
+		input[type="reset"]:hover {
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a>
+                <ul><li></li>
+                    <li></li>
+                    </li></ul>
+            <li>
+                <a href="point table.html">Point Table</a>
+            </li>
+            <li>
+                <a href="players.html" target="_self">Players</a>
+            </li>
+            
+            <li>
+                <a href="match.html">Matches</a>
+            </li>
+            <li>
+                <a href="contact.html" >Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <div class="heading">
+        
+        
+    </div>
+</div>
+	<form>
+		<h2>Enter Your Details</h2>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Your Name">
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email" placeholder="Your Email">
+		<label for="feedback">Your Suggestion:</label>
+		<textarea id="feedback" name="feedback" rows="5" placeholder="Your Suggestions"></textarea>
+		<input type="submit" value="Submit">
+        <input type="reset">
+	</form>
+</body>
+</html>
